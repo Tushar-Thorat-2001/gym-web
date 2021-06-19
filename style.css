@@ -1,0 +1,107 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#header
+{
+   background-image: url(ba.jpg);
+   height: 80vh;
+   background-size: cover;
+   background-position: center;
+}
+.navbar-nav li a
+{
+    float: right;
+    color: #fff !important;
+    margin-top: -3px;
+
+
+}
+.nav-item :hover{
+    background-color:#A52A2A;
+    background-size: 3%;
+}
+.navbar-brand img
+{
+    width: 50%;
+    margin-left:30px;
+}
+.navbar-toggler
+{
+  margin-top: -50px;
+}
+
+/*----welcome text---*/
+.welcome
+{
+    padding: 35px 80px;
+    margin-top: -100px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgb(0,0,0,0.2);
+}
+
+/*--about==*/
+
+#about
+{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+#about .col-md-6{
+    padding: 20px 10px;
+}
+#about.h3{
+    padding: 20px auto;
+}
+
+/*---service--*/
+
+#service
+{
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#service.col-md-4
+{
+    padding: 20px;
+}
+#service.col-md-4 h4{
+    padding: 4px;
+
+}
+#service.col-md-4 img
+{
+    width: 50px;
+}
+#service.col-md-4 p
+{
+    padding: 5px;
+}
+
+/*-----textimonal----*/
+#testimonal{
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+    background-color: #fff;
+    box-shadow: 0px,0px,20px,1px rgba(0,0,0,0.2);
+ 
+}
+#testimonal .col-md-4{
+    padding: 10px 30px;
+
+}
+#testimonal img
+{
+    width: 60px;
+    height: 60px;
+}
+#review{
+    font-size: 12px;
+    padding: 10px,10px,10px,30px;
+    border-radius: 20px;
+    box-sizing: 0px,0px,20px,1px rgba(0,0,0,0.2);
+}
